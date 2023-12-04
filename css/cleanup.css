@@ -1,1 +1,17 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: inline-block;
+    margin: 0 auto;
+}
+.tag-1 + #tag-2 {
+    display: block;
+    position: relative;
+    margin-bottom: 0;
+}
+body #wall{
+    top: 40px;
+    box-shadow: none;
+    margin: auto;
+    border: 24px solid grey;
+    border-bottom: 25px solid white;
+}
